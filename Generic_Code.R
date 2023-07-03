@@ -63,7 +63,7 @@ plot(lm(ANOVA))
 
 # Diagnostic plots through car package
 avPlots(ANOVA)
-qqPlot(ANOVA, id.n=3)
+qqPlot(ANOVA, id.n = 3)
 outlierTest(ANOVA)
 influenceIndexPlot(ANOVA)
 influencePlot(ANOVA)
