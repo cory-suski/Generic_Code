@@ -16,8 +16,7 @@ version # will provide current version of R only (sessionInfo is more useful for
 
 # Data_import -------------------------------------------------------------
 data <- read_csv("data.csv", col_types = cols(Sample_type = col_factor(levels = c(
-  "Factor_1",
-  "Factor_2", "Factor_3", "Factor_4", "Factor_5",
+  "Factor_1", "Factor_2", "Factor_3", "Factor_4", "Factor_5",
 ))))
 
 summary(Avg_CT)
