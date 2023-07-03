@@ -14,7 +14,6 @@ citation("dplyr") # provides the citation for a package
 sessionInfo() # shows R version, packages, & other useful stuff (useful for stats sections of papers)
 version # will provide current version of R only (sessionInfo is more useful for papers)
 
-
 # Data_import -------------------------------------------------------------
 data <- read_csv("data.csv", col_types = cols(Sample_type = col_factor(levels = c(
   "Factor_1",
@@ -102,7 +101,6 @@ ggplot(data, aes(x = Sample_type, y = Response)) +
   annotate("text", x = 1, y = 9, label = "a", fontface = "bold", colour = "black", size = 6) +
   annotate("text", x = 2, y = 12, label = "b", fontface = "bold", colour = "black", size = 6) +
 ggsave("figure.jpeg", dpi = 1200)
-
 
 # Upload to Github --------------------------------------------------------
 library(usethis)
