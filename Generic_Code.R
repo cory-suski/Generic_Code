@@ -4,6 +4,7 @@ library(tidyverse)
 library(car)
 library(usethis)
 library(gitcreds)
+#adding a random comment
 
 updateR() # will check for new R updates through the installr package
 packageStatus() # checks whether or not there are any packages that need to be updated
