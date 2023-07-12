@@ -11,7 +11,7 @@ packageStatus() # checks whether or not there are any packages that need to be u
 update.packages(checkBuilt = TRUE) # will update all packages
 packageVersion("MuMIn") # one method for checking version of a package
 getNamespaceVersion("ggplot2") # alternate method for checking version of a package
-citation("ggplot2") # provides the citation for a package
+citation("usethis") # provides the citation for a package
 sessionInfo() # shows R version, packages, & other useful stuff (useful for stats sections of papers)
 version # will provide current version of R only (sessionInfo is more useful for papers)
 
@@ -100,7 +100,7 @@ ggplot(data, aes(x = Sample_type, y = Response)) +
   ) +
   annotate("text", x = 1, y = 9, label = "a", fontface = "bold", colour = "black", size = 6) +
   annotate("text", x = 2, y = 12, label = "b", fontface = "bold", colour = "black", size = 6) +
-ggsave("figure.jpeg", dpi = 1200)
+  ggsave("figure.jpeg", dpi = 1200)
 
 # Upload to Github --------------------------------------------------------
 library(usethis)
