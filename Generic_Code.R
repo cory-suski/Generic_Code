@@ -103,6 +103,5 @@ ggplot(data, aes(x = Sample_type, y = Response)) +
 ggsave("figure.jpeg", dpi = 1200)
 
 # Upload to Github --------------------------------------------------------
-library(usethis)
-library(gitcreds)
-use_git()
+#https://gist.github.com/Z3tt/3dab3535007acf108391649766409421
+#https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/
