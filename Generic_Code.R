@@ -4,7 +4,7 @@ library(tidyverse)
 library(car)
 library(usethis)
 library(gitcreds)
-#trying yet another new upload technique with new repository
+#continuing to struggle with uploading
 
 updateR() # will check for new R updates through the installr package
 packageStatus() # checks whether or not there are any packages that need to be updated
