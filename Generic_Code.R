@@ -11,7 +11,7 @@ packageStatus() # checks whether or not there are any packages that need to be u
 update.packages(checkBuilt = TRUE) # will update all packages
 packageVersion("MuMIn") # one method for checking version of a package
 getNamespaceVersion("ggplot2") # alternate method for checking version of a package
-citation("dplyr") # provides the citation for a package
+citation("usethis") # provides the citation for a package
 sessionInfo() # shows R version, packages, & other useful stuff (useful for stats sections of papers)
 version # will provide current version of R only (sessionInfo is more useful for papers)
 
