@@ -104,6 +104,5 @@ ggsave("figure.jpeg", dpi = 1200)
 
 # Upload to Github --------------------------------------------------------
 library(usethis)
-use_git()
 library(gitcreds)
 use_git()
